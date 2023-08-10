@@ -194,7 +194,7 @@ public class MainActivity extends AppCompatActivity {
                 int cMonth = calander.get(Calendar.MONTH);
                 int cDay = calander.get(Calendar.DAY_OF_MONTH);
                 DatePickerDialog myDateDialog2 = new DatePickerDialog(MainActivity.this,
-                        myDateListener,  cYear, cMonth, cDay);
+                        myDateListener, cYear, cMonth, cDay);
                 myDateDialog2.show();
 
             }
